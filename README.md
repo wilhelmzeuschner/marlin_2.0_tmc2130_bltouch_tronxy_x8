@@ -2,7 +2,7 @@
 
 my personal config
 
-printer: tronxy x8 (abet a8 clone)
+printer: tronxy x8 (anet a8 clone)
 
 tmc2130 drivers (SPI)
 

@@ -1,0 +1,33 @@
+Autotune command:
+M303 S215
+M106 S127
+
+
+Hotend:
+
+Defaults:
+#define DEFAULT_Kp 22.2
+#define DEFAULT_Ki 1.08
+#define DEFAULT_Kd 114
+
+
+Fan off:
+Recv: #define DEFAULT_Kp 25.14
+Recv: #define DEFAULT_Ki 2.54
+Recv: #define DEFAULT_Kd 62.31
+
+Fan at 50%, Hotend very close to bed (strong cooling effect):
+Recv: #define DEFAULT_Kp 29.34
+Recv: #define DEFAULT_Ki 2.96
+Recv: #define DEFAULT_Kd 72.70
+
+Fan at 50%, Hotend far away from bed:
+Recv: #define DEFAULT_Kp 25.46
+Recv: #define DEFAULT_Ki 2.32
+Recv: #define DEFAULT_Kd 69.88
+
+Command to set:
+m301 p25.46 k2.32 d69.88
+
+Tutorial:
+https://www.youtube.com/watch?v=jVcIt7nFaks

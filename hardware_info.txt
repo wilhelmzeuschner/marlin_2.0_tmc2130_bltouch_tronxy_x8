@@ -1,0 +1,3 @@
+Raspberrry Pi GPIO:
+Pin 17: Printer ON/OFF
+Pin 27: LED Lights

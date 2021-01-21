@@ -1,3 +1,4 @@
 Raspberrry Pi GPIO:
 Pin 17: Printer ON/OFF
 Pin 27: LED Lights
+(using the GPIO numbering, not the sequential numbering of the header pins)

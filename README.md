@@ -11,3 +11,7 @@ mks gen 1.4 (mks 1.3 is selected in marlin configuration.h but pins are configur
 <del>bltouch</del> inductive probe
 
 removed hal folders so that the firmware actually compiles: https://github.com/MarlinFirmware/Marlin/issues/16105
+
+
+PSU on / off: GPIO 17
+LED on / off: GPIO 27
